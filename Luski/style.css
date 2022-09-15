@@ -1,0 +1,55 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    word-wrap: break-word ;
+}
+
+body{
+    background-color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-left: 15px;
+    margin-top: 2rem;
+    padding-bottom: 20px;
+    
+}
+
+footer{
+    height: 4rem;
+    width: 100%;
+    text-align: center;
+    background: white;    
+    bottom: 0%;
+}
+
+header{
+    background-color: aliceblue;
+    height: 4rem;
+    border: 1px solid;
+    width: 100%;
+}
+
+
+.content{
+    background-color: gray;
+    margin-left: 25px;
+    margin-right: 25px;
+    word-wrap: break-word ;
+}
+
+#subir{
+    
+    border: 5px solid;
+    border-radius: 50%;
+    width: 16px;
+    
+}
