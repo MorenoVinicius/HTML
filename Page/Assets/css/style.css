@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #6f5a5d 16.62%, #926d65 85.61%);
+
+}
+  
+h1{
+    font-family: 'Merienda', cursive;
+    font-size:24px;
+    color: #FFF2E7
+};
+
+h2{
+    font-family: 'Merienda One', cursive;
+    font-size: 16px;
+};
+
+header{
+    display: flex;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px;
+}
+
+.cabecalho-logo{
+    height: 50px;
+}
+
+.cabecalho-nav{
+    display: flex;
+    gap: 10px;
+
+}
+
+.cabecalho-item{
+    font-family: 'Merienda One', cursive;
+    color: black;
+    padding: 15px;
+    
+}
+
+.conteudo{
+    margin-bottom: 48px;
+    border-top: 0.5px solid #FFF2E7;
+}
+
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cnt-pr-es{
+    display: column;
+    flex-direction: row;
+    gap:32px;
+    font-family: 'Merienda One', cursive;
+}
+
+.conteudo-bt{
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0,0,0,0.25);
+    border-radius: 20px;
+    font-family: 'Merienda One', cursive;
+
+}
+
+.conteudo-img{
+    width: 430px;
+    height: 395px;
+    display: flex;
+}
+
+
+@media (max-width: 768px) { /* definir estilos diferentes para telas menores que 768px */
+    .container {
+      max-width: 600px; /* definir a largura máxima da div como 600px */
+    }
+}
